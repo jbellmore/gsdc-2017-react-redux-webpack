@@ -1,0 +1,23 @@
+{
+  "name": "gsdc-2017-react-redux-webpack",
+  "version": "1.0.0",
+  "description": "Demo code from the talk \"Building Web Apps with React, Redux and Webpack\" from the 2017 Guardian Software Development Conference",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbellmore/gsdc-2017-react-redux-webpack.git"
+  },
+  "author": "Jarrod Bellmore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbellmore/gsdc-2017-react-redux-webpack/issues"
+  },
+  "homepage": "https://github.com/jbellmore/gsdc-2017-react-redux-webpack#readme",
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  }
+}
