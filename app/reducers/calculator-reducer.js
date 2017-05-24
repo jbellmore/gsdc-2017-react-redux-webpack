@@ -3,7 +3,9 @@ const calculatorReducer = (state = {}, action) => {
     case "ADD":
         return Object.assign({}, state, {
             // Update state object here
-            result: parseFloat(action.x) + parseFloat(action.y)
+            x: action.x,
+            y: action.y,
+            result: parseFloat(action.x) + parseFloat(action.y),
         });
     default:
         // Always return existing state object if not
